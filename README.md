@@ -8,6 +8,8 @@ Script in python that uses YT-DLP python package to download music from YouTube 
 
 **Usage**
 
+**You must download the script first, by using git to clone the repo or on the code tab on github by clicking download zip.**
+
 ```
 python3 main.py "<URL>" "<OUTPUT>"
 ```
