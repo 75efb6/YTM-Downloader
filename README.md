@@ -17,3 +17,5 @@ python3 main.py "<URL>" "<OUTPUT>"
 *Last one optional*
 
 *Must use quotation* (")
+
+**For the output options visit [yt-dlp documentation](https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file#output-template)**
