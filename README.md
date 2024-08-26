@@ -8,7 +8,9 @@ Script in python that uses YT-DLP python package to download music from YouTube 
 
 **Usage**
 
-> `python3 main.py "<URL>" "<OUTPUT>"`
+```
+python3 main.py "<URL>" "<OUTPUT>"
+```
 
 *Last one optional*
 
