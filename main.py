@@ -17,10 +17,23 @@ def main():
 
     ydl_opts = {
         "format": "mp3/bestaudio/best",
-        "postprocessors": [{
-            "key": "FFmpegExtractAudio",
-            "preferredcodec": "mp3",
-        }],
+        "writethumbnail": True,
+        "postprocessors": [
+            {
+                "key": "FFmpegExtractAudio",
+                "preferredcodec": "mp3"
+            },
+            {
+                "key": "FFmpegMetadata",
+                "add_chapters": True,
+                "add_infojson": "if_exists",
+                "add_metadata": True
+            },
+            {
+                "key": "EmbedThumbnail",
+                "already_have_thumbnail": False
+            }
+        ],
     }
 
     if out_opt:
